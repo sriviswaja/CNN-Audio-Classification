@@ -216,3 +216,14 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+#required
+
+data/                     # ignore the dataset folder (audio files, too large/licensed to commit)
+*.wav                     # ignore raw audio files anywhere in the repo
+*.h5                      # ignore saved Keras/TensorFlow models in HDF5 format
+*.keras                   # ignore saved Keras models in the newer native .keras format
+*.npy                     # ignore numpy array files (e.g. cached preprocessed spectrograms)
+.ipynb_checkpoints/       # ignore Jupyter's auto-saved notebook checkpoint files
+__pycache__/              # ignore Python's compiled bytecode cache folders
+sample_data/              # ignore Colab's auto-generated junk example dataset folder
