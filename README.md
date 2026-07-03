@@ -1,4 +1,4 @@
-# CNN Audio Classification 🎧
+# CNN Audio Classification 
 
 A CNN-based audio classifier that identifies urban sounds from Mel-spectrogram
 representations, built with TensorFlow/Keras on the UrbanSound8K dataset.
